@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.var {
+    margin-left: 1000px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+    border-style: none;
+}
+
+.nav {
+    background-image: url(bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+}  
+.demo, .com {
+    display: flex;
+    justify-content: space-between;
+}
+.new {
+    padding-top: 50px;
+    margin-left: 40px;
+    line-height: 25px;
+}
+h3 {
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+.ani {
+    padding-top: 20px;
+    margin-right: 40px;
+}
+.const {
+    width: 210px;
+    padding: 15px;
+    border-radius: 25px;
+    margin-top: 20px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+}
+.container, .heavy, .self {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 5px 5px 5px hsl(208, 11%, 55%);
+    width: 1000px;
+    height: 360px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.main, .memo, .three, .get, .four, .two {
+    margin: auto;
+}
+.end {
+    width: 480px;
+    padding: 50px;
+    box-shadow: 1px 1px 1px 1px hsl(208, 11%, 55%);
+    position: absolute;
+    margin-left: 330px;
+    margin-top: 130px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+section {
+   
+    padding: 90px;
+    background-color: hsl(192, 100%, 9%);
+    margin-top: 250px;
+    
+}
+.yes, .hud, .icon{
+    line-height: 20px;
+    padding: 15px;
+    color: white;
+    
+}
+.put {
+    margin-right: 15px;
+    
+}
+.grow {
+    width: 180px;
+    padding: 16px;
+    border-radius: 30px;
+    background-color: hsl(322, 100%, 66%);
+    border-style: none;
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.pop, .logo {
+    color: white;
+}
+li {
+    list-style: none;
+    line-height: 30px;
+}
+.footer {
+    margin-left: 700px;
+    margin-top: 70px;
+    color: white;
+}
+li a {
+    color: white;
+    text-decoration: 0px;
+}
+@media screen and (max-width: 375px ) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+}
